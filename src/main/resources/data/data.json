@@ -1,0 +1,91 @@
+[
+  {
+    "ProName": "Beer",
+    "ProPrice": "3€",
+    "Alcohol Concentrations": "5%",
+    "ProDescription": "Beer is one of the oldest and most widely consumed alcoholic drinks in the world, and the third most popular drink overall after water and tea. Beer is brewed from cereal grains—most commonly from malted barley, though wheat, maize, and rice are also used."
+  },
+  {
+    "ProName": "Wine",
+    "ProPrice": "5€",
+    "Alcohol Concentrations": "10%",
+    "ProDescription": "Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol, carbon dioxide, and heat."
+  },
+
+  {
+    "ProName": "Hard Cider",
+    "ProPrice": "4€",
+    "Alcohol Concentrations": "3%",
+    "ProDescription": "This is a list of cider brands. Cider is an alcoholic beverage made exclusively from the juice of apple or pear.This list also includes perry, which is a similar alcoholic beverage made from pear varieties."
+  },
+
+  {
+    "ProName": "Mead",
+    "ProPrice": "8€",
+    "Alcohol Concentrations": "5%",
+    "ProDescription": "Mead is an alcoholic beverage created by fermenting honey with water, sometimes with various fruits, spices, grains, or hops. The alcoholic content ranges from about 3.5% ABV to more than 18%."
+  },
+
+  {
+    "ProName": "Sake",
+    "ProPrice": "7€",
+    "Alcohol Concentrations": "3%",
+    "ProDescription": "Sake, also spelled saké, is an alcoholic beverage made by fermenting rice that has been polished to remove the bran."
+  },
+
+  {
+    "ProName": "Gin",
+    "ProPrice": "10€",
+    "Alcohol Concentrations": "5%",
+    "ProDescription": "Gin is a distilled alcoholic drink that derives its predominant flavour from juniper berries. Gin is one of the broadest categories of spirits, all of various origins, styles, and flavour profiles, that revolve around juniper as a common ingredient."
+  },
+
+  {
+    "ProName": "Brandy",
+    "ProPrice": "8€",
+    "Alcohol Concentrations": "4%",
+    "ProDescription": "Brandy is a liquor produced by distilling wine.Brandy generally contains 35–60% alcohol by volume (70–120 US proof)and is typically consumed as an after-dinner digestif. "
+  },
+
+  {
+    "ProName": "Whiskey",
+    "ProPrice": "6€",
+    "Alcohol Concentrations": "7%",
+    "ProDescription": "Whisky or whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn, rye, and wheat."
+  },
+
+  {
+    "ProName": "Rum",
+    "ProPrice": "4€",
+    "Alcohol Concentrations": "4%",
+    "ProDescription": "Rum is a liquor made by fermenting then distilling sugarcane molasses or sugarcane juice. The distillate, a clear liquid, is usually aged in oak barrels."
+  },
+
+  {
+    "ProName": "Tequila",
+    "ProPrice": "9€",
+    "Alcohol Concentrations": "10%",
+    "ProDescription": "Tequila is a distilled beverage made from the blue agave plant, primarily in the area surrounding the city of Tequila 65 km (40 mi) northwest of Guadalajara."
+  },
+
+  {
+    "ProName": "Vodka",
+    "ProPrice": "5€",
+    "Alcohol Concentrations": "5%",
+    "ProDescription": "Vodka is a clear distilled alcoholic beverage with different varieties originating in Poland and Russia. It is composed primarily of water and ethanol, but sometimes with traces of impurities and flavorings."
+  },
+
+  {
+    "ProName": "Absinthe",
+    "ProPrice": "5€",
+    "Alcohol Concentrations": "5%",
+    "ProDescription": "It is an anise-flavoured spirit derived from botanicals, including the flowers and leaves of Artemisia absinthium (grand wormwood), together with green anise, sweet fennel, and other medicinal and culinary herbs. Absinthe traditionally has a natural green color but may also be colorless."
+  },
+
+  {
+    "ProName": "Everclear",
+    "ProPrice": "4€",
+    "Alcohol Concentrations": "4%",
+    "ProDescription": "Everclear is a brand name of rectified spirit (also known as grain alcohol and neutral spirit)produced by the American company Luxco (formerly known as the David Sherman Corporation).It is made from grain and is bottled at 120, 151, 189, and 190 U.S. proof(60%, 75.5%, 94.5% and 95% alcohol by volume, respectively)."
+  }
+]

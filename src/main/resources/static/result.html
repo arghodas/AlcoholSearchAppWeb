@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Alcohol Encyclopedia</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/bgStretch.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script>
+    $(document).ready(function () {
+        $('#bgStretch')
+            .bgStretch({
+                align: 'leftTop'
+            })
+    });
+    </script>
+    <script>
+        $(window).load(function () {
+            $('#TMGPrototype2').TMGPrototype2({});
+        });
+    </script>
+    <script>
+        function handleSubmit() {
+            var pro = document.getElementById("product").value;
+
+            localStorage.setItem("PRODUCT", pro);
+            return;
+        }
+    </script>
+
+    <script>
+		function searchFunction() {
+			var xhttp = new XMLHttpRequest();
+			var url = "search?query="
+					+ document.getElementById("searchBox").value
+			xhttp.open("GET", url, false);
+			xhttp.setRequestHeader("Content-type", "application/json");
+			xhttp.send();
+			var response = JSON.parse(xhttp.responseText);
+
+			var tableContents = "<table class=\"table table-striped table-bordered table-inverse\"><thead><tr><th> </th><th>Name</th><th>Alcohol Concentrations</th><th>Price</th></tr></thead>"
+			for (var i = 0; i < response.length; i++) {
+				tableContents += "<tbody><tr><td>" + response[i].ProDescription + "</td>"
+				tableContents += "<td>" + response[i].ProName + "</td>"
+				tableContents += "<td>" + response[i]["Alcohol Concentrations"] + "</td>"
+				tableContents += "<td>" + response[i].ProPrice + "</td></tr></tbody>"
+			}
+			tableContents += "</table>"
+			document.getElementById("demo").innerHTML = tableContents;
+		}
+	</script>
+
+    <style>
+    .textbox {
+        background: #FFF url(http://html-generator.weebly.com/files/theme/input-text-9.png) no-repeat 4px 4px;
+        border: 1px solid #999;
+        outline:0;
+        padding-left: 25px;
+        height:25px;
+        width: 275px;
+      }
+    </style>
+
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+
+<body>
+<div id="bgStretch"><img src="images/spark2.jpg" alt=""></div>
+<header>
+    <div class="menu_block">
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+                <nav>
+                    <ul class="sf-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="result.html?#">Search</a></li>
+                        <li><a href="our-story.html">Our Story</a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</header>
+<div class="wrap">
+    <div class="search">
+        <input type="text" class="searchTerm" id="searchBox" placeholder="What are you looking for?">
+        <button type="submit" class="searchButton" id="submitBtn" onclick="searchFunction()">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+    <div>
+        <p id="demo" ></p>
+    </div>
+</div>
+<script>
+var input = document.getElementById("searchBox");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("submitBtn").click();
+  }
+});
+</script>
+
+
+
+<div class="footer">
+    <footer>
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="copy"> Alcohol Encyclopedia 6000 BC &copy; 2020 | <a href="#">Privacy Policy</a> | Design by: Argho Das</a> </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+</head>

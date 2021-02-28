@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Alcohol Encyclopedia</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/TMGPrototype2.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/TMGPrototype2.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script>
+    $(window).load(function () {
+        $('#TMGPrototype2').TMGPrototype2({});
+    });
+    </script>
+<script>
+    function handleSubmit() {
+    var pro = document.getElementById("product").value;
+
+    localStorage.setItem("PRODUCT", pro);
+    return;
+}
+</script>
+
+
+</head>
+<body class="page1">
+<header>
+    <div class="menu_block">
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+                <nav>
+                    <ul class="sf-menu">
+                        <li  class="current"><a href="index.html">Home</a></li>
+                        <li><a href="result.html?#">Search</a></li>
+                        <li><a href="our-story.html">Our Story</a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</header>
+<div id="TMGPrototype2">
+    <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+    <ul class='sets'>
+        <li data-setName="Undistilled Drinks">
+            <ul>
+                <li data-srcPreview="images/Undistilled_Drinks1.jpg">
+                    <div>
+                        <div class="content"> <img src="images/Beer.png" alt="">
+                            <h3>Beer</h3>
+                            <p>Beer is the most popular alcoholic beverage worldwide. In fact, after water and tea, beer is the most commonly-
+                                consumed drink in the world. Beer is also most likely the oldest alcoholic drink in history. A standard beer,
+                                whether it be a lager or an ale, has between 4% to 6% ABV, although some beers have higher or lower
+                                concentrations of alcohol. For example, “light beers” only have between 2% to 4% ABV while “malt liquors”
+                                have between 6% to 8%.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Undistilled_Drinks2.jpg">
+                    <div>
+                        <div class="content"> <img src="images/red_wine.jpg" alt="">
+                            <h3>Wine</h3>
+                            <p>Wine is another popular and ancient alcoholic beverage. Standard wine has less than 14% ABV. Champagne,
+                                he most well-known sparkling wine, has an alcohol concentration of about 10% to 12%. Some wines are
+                                “fortified” with distilled alcohol. Port, Madeira, Marsala, Vermouth, and Sherry are examples of fortified wines.
+                                They usually have about 20% ABV.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Undistilled_Drinks3.jpg">
+                    <div>
+                        <div class="content"><img src="images/Hard_Cider.jpg" alt="">
+                            <h3>Hard Cider</h3>
+                            <p>Hard Cider is an alcoholic beverage made from the fermented juice of apples, although the legal definition
+                                for other fruit ciders can differ from country to country.This is popular in the United Kingdom and the
+                                Republic of Ireland and widely available. The UK has the world's highest per capita consumption, as well
+                                as its largest cider-producing companies. Ciders from the South West of England, often referred to as ‘Rouge’
+                                are generally stronger beverages and considered heritage ciders. Cider is also popular in many
+                                Commonwealth countries. In Canada, cider cannot be called cider if there are no apples. Furthermore,
+                                according to the Food and Drug Regulations in Canada, cider cannot contain less than 2.5% or over
+                                13% absolute alcohol by volume. </p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li data-srcPreview="images/Undistilled_Drinks4.jpg">
+                    <div>
+                        <div class="content"><img src="images/Mead.jpg" alt="">
+                            <h3>Mead</h3>
+                            <p>Mead is an alcoholic beverage created by fermenting honey with water, sometimes with various fruits, spices,
+                                grains, or hops. The alcoholic content ranges from about 3.5% ABV to more than 20%. The defining characteristic
+                                of mead is that the majority of the beverage's fermentable sugar is derived from honey. It may be still,
+                                carbonated, or naturally sparkling; dry, semi-sweet, or sweet. </p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li data-srcPreview="images/Undistilled_Drinks5.jpg">
+                    <div>
+                        <div class="content"><img src="images/Saké.jpg" alt="">
+                            <h3>Saké</h3>
+                            <p>Sake is an alcoholic drink brewed from polished rice from Japan . The clear or whitish-cloudy drink contains
+                                approx. 15-20 volume percent alcohol .</p>
+
+                            <p>In German, the misleading term rice wine is often used for sake . In terms of production, sake is more similar to
+                                a beer , since starch has to be broken down into sugar for alcoholic fermentation. The alcohol content of sake is
+                                higher than that of wine made from grapes . In terms of tax law, sake is an intermediate product in Germany , but in
+                                Austria it is a fruit wine. Sake makes up about 4% of the alcohol from Japanese, with a downward trend - the largest
+                                share beers.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li data-setName="Distilled Drinks">
+            <ul>
+                <li data-srcPreview="images/Distilled_Drinks1.jpg">
+                    <div>
+                        <div class="content"> <img src="images/Gin.jpg" alt="">
+                            <h3>Gin</h3>
+                            <p>Gin is a mostly colorless spirit with juniper and the main component of many cocktails, such as the martini,
+                                the negroni and the long drink gin and tonic .In the European Union and Switzerland , gin must have an alcohol
+                                content of at least 37.5 percent by volume . [1] [2] However, some of the better fillings are significantly
+                                stronger, since otherwise the taste against the background of the spice aromas looks out of round.</p>
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks2.jpg">
+                    <div>
+                        <div class="content"> <img src="images/Brandy.jpg" alt="">
+                            <h3>Brandy</h3>
+                            <p>Brandy is distilled wine. The concentration of alcohol in brandy ranges from 35% to 60%. For example,
+                                one famous brandy, Cognac, has 40% ABV.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks3.jpg">
+                    <div>
+                        <div class="content"><img src="images/Whiskey.jpg" alt="">
+                            <h3>Whiskey</h3>
+
+                            <p>Whiskey is a spirit made by distillation from grain mash recovered and Barrel matured spirit.
+                                The ABV of whiskey ranges from 40% to 50%.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks4.jpg">
+                    <div>
+                        <div class="content"><img src="images/Rum.jpg" alt="">
+                            <h3>Rum</h3>
+
+                            <p>Rum, a distilled drink made from fermented sugarcane or molasses, has a typical alcohol
+                                concentration of 40% ABV. Some rum is “overproof,” meaning that it has an alcohol
+                                concentration of at least 57.5% ABV. Most overproof rum exceeds this minimum, usually reaching
+                                75.5% ABV, which is equivalent to 151 proof.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks5.jpg">
+                    <div>
+                        <div class="content"><img src="images/Tequila.jpg" alt="">
+                            <h3>Tequila</h3>
+
+                            <p>Tequila is a form of the spirit Mezcal , an agave brandy from Mexico. Tequila is the most famous mezcal and
+                                is obtained from the heart of the blue agave in the area around the city of Tequila in the Mexican state of
+                                Jalisco and in four other states. This heart was called “The House of the Moon” by the locals, which means
+                                “Mezcal” in the Nahuatl indigenous language. Usually the alcohol content is between 38 and 40, for some
+                                tequilas up to 50 percent alcohol by volume.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks6.jpg">
+                    <div>
+                        <div class="content"><img src="images/Vodka.jpg" alt="">
+                            <h3>Vodka</h3>
+
+                            <p>Tequila is a form of the spirit Mezcal , an agave brandy from Mexico. Tequila is the most famous mezcal and
+                                is obtained from the heart of the blue agave in the area around the city of Tequila in the Mexican state of
+                                Jalisco and in four other states. This heart was called “The House of the Moon” by the locals, which means
+                                “Mezcal” in the Nahuatl indigenous language. Usually the alcohol content is between 38 and 40, for some
+                                tequilas up to 50 percent alcohol by volume.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks7.jpg">
+                    <div>
+                        <div class="content"><img src="images/Absinthe.jpg" alt="">
+                            <h3>Absinthe</h3>
+
+                            <p>Absinthe is a spirit made from a variety of leaves and herbs. There is no evidence for the idea that
+                                absinthe is a hallucinogen, but it does has a high alcohol concentration. Some forms of absinthe have
+                                about 40% ABV, while others have as much as 90% ABV.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li data-srcPreview="images/Distilled_Drinks8.jpg">
+                    <div>
+                        <div class="content"><img src="images/Everclear.jpg" alt="">
+                            <h3>Everclear</h3>
+
+                            <p>Everclear, a grain-based spirit, is another drink with a heavy alcohol concentration. The minimum
+                                ABV of Everclear is 60%, but Everclear can also have 75.5% and 95% ABV.</p>
+
+                            <div class="alright"><a href="#" class="btn">Read More</a></div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+</div>
+<footer>
+    <div class="container_12">
+        <div class="grid_12">
+            <div class="copy"> Alcohol Encyclopedia 6000 BC &copy; 2020 | <a href="#">Privacy Policy</a> | Design by: Argho Das</a> </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
